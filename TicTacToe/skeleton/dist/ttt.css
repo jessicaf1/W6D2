@@ -1,0 +1,39 @@
+.board {
+  display: flex; 
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 300px;
+  width: 300px;
+}
+ul {
+  list-style-type: none;
+}
+
+li {
+  width: 80px;
+  border: 5px solid red;
+  height: 80px;
+  background-color: gray;
+  text-align: center; 
+  line-height: 50px; 
+
+}
+
+li:hover {
+  background-color: yellow;
+}
+
+.selected {
+  background-color: white; 
+}
+
+
+.x{
+  font-size: 120px;
+  color: magenta;
+}
+
+.o{
+  font-size: 120px;
+  color: orangered;
+}
